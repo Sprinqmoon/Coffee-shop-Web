@@ -183,10 +183,7 @@
 
   <script>
     // Sample product data (could come from localStorage)
-    let coffeeData = JSON.parse(localStorage.getItem('coffeeData')) || [
-      { name: "Latte", price: 3.5, discount: 10, quantity: 10, image: "Image/latte.jpg" },
-      { name: "Americano", price: 3.0, discount: 0, quantity: 5, image: "Image/americano.jpg" }
-    ];
+    let coffeeData = JSON.parse(localStorage.getItem('coffeeData')) || [];
 
     let invoiceItems = JSON.parse(localStorage.getItem('invoiceItems')) || [];
 
